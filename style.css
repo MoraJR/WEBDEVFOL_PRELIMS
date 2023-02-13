@@ -161,6 +161,9 @@ margin-bottom: 10px;
             display: flex;
             align-items: center;
          }
+	.navbar-left a {
+		color: white;
+	}
          .navbar-right {
             display: flex;
             justify-content: flex-end;
