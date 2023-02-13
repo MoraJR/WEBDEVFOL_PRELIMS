@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* Add styles for the body of the page */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f2f2f2;
+      }
+
+
+      /* Navbar Design*/
+
+      /* Add styles for the main section */
+      main {
+        padding: 2em;
+      }
+
+      /* Add styles for the headings */
+      h1, h2, h3 {
+        color: #333;
+      }
+
+      /* Add styles for the links */
+      a {
+        color: #333;
+        text-decoration: none;
+      }
+
+      /* Add styles for the portfolio items */
+      .portfolio-item {
+        display: inline-block;
+        width: 25%;
+        background-color: white;
+        padding: 1em;
+        margin: 1em;
+        text-align: center;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Add styles for the portfolio item image */
+      .portfolio-item img {
+        width: 100%;
+		 cursor: pointer;
+		margin-top: 10px;
+		display: inline-block;
+		 }
+
+      /* Add styles for the skills checklist */
+      .skills-checklist {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+		font-size: 18px;
+		  font-weight: bold;
+		  text-align: center;
+		  
+      }
+
+      /* Add styles for the skills checklist items */
+      .skills-checklist li {
+        
+		  
+      }
+/*Test */
+.modal {
+  display: none;
+  z-index: 9999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  filter: none;
+  text-align: center;
+  padding-right: 30px !important;
+  border: solid;
+}
+
+.modal-header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.modal-body {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.close-button {
+position: absolute;
+right: 10px;
+top: 10px;
+cursor: pointer;
+  border-radius: 20px;
+
+}
+.close-button:hover {
+
+background-color: grey;
+}
+.skills-checklist {
+list-style: none;
+padding: 0;
+margin: 0;
+text-align: left;
+  text-align: center;
+
+}
+
+.skills-checklist li {
+display: inline-block;
+font-size: 14px;
+padding: 5px 10px;
+background-color: #ddd;
+border-radius: 5px;
+margin-right: 10px;
+margin-bottom: 10px;
+
+
+}
+
+.modal-open {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-open .portfolio-item {
+  background-color: transparent;
+}
+.portfolio-item img{
+	 background-color: transparent;
+	 width: 400px;
+	 height: 400px;
+}
+.projects {
+  text-align: center;
+	}/* Set the font for the navigation bar */
+         .navbar, .navbar-right a {
+            font-family: 'Montserrat', sans-serif;
+         }
+         .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 60px;
+            background-color: #454545;
+            color: #fff;
+			font-size: 18px;
+         }
+         .navbar-left {
+            display: flex;
+            align-items: center;
+         }
+         .navbar-right {
+            display: flex;
+            justify-content: flex-end;
+         }
+         .navbar-right a {
+            margin-left: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            font-family: 'Lato', sans-serif;
+         }
+         .navbar-right a:hover {
+            color: #333;
+            background-color: grey;
+			padding: 10px 10px;
+         }
+         .about-me {
+            display: flex;
+            background-color: #454545;
+            height: 901px;
+            color: white;
+         }
+         .about-me-image img{
+            width: 500px;
+            height: 600px;
+			margin: 100px 170px 0px 200px;
+			display: inline-block;
+			background-color: white;
+			padding: 1em;
+         }
+         .about-me-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+			width: 80%;
+			padding: 40px;
+			margin: 50px 0px 0px 150px;
+         }
+		 .about-me-text-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+		 }
+         .about-me-text h1 {
+            margin: 0;
+			color: white;
+			font-size: 80px;
+			font-family: 'Russo One', sans-serif;
+         }
+         .about-me-text p {
+            margin: 0;
+            padding: 10px 0;
+            font-family: 'Lato', sans-serif;
+			font-size: 20px;
+         }
